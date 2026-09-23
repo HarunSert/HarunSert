@@ -6,6 +6,34 @@ I am a DevOps Engineer with hands-on experience in Linux-based production enviro
 
 I work with production systems running on Kubernetes, OpenShift and Docker, focusing on deployment, troubleshooting, automation and infrastructure operations.
 
+### 🚀 Featured Projects
+
+#### [DevOps Lab API](https://github.com/HarunSert/devops-lab-api)
+
+End-to-end CI/CD lab using **Jenkins, Docker, Helm and Kubernetes**.
+
+`Git Tag → GitHub Webhook → Jenkins → Pytest → Docker Hub → Helm → Kubernetes`
+
+- Semantic versioned releases
+- Automated tests and Docker builds
+- Docker Hub image publishing
+- Kubernetes rolling deployments
+- Liveness and readiness probes
+- Horizontal Pod Autoscaler
+
+#### [Kubernetes Production Lab](https://github.com/HarunSert/kubernetes-production-lab)
+
+Hands-on K3s environment demonstrating:
+
+- Helm deployments
+- Traefik Ingress
+- ConfigMaps and Secrets
+- Resource requests and limits
+- Health probes
+- Horizontal Pod Autoscaler
+- Rolling updates and rollback
+- Jenkins CI/CD integration
+
 ### 🛠 Technologies & Tools
 
 - Kubernetes
@@ -46,59 +74,6 @@ I am building hands-on DevOps projects focused on:
 - Infrastructure as Code
 - GitOps
 - Observability
-
-### 🚀 Featured Projects
-
-#### [DevOps Lab API](https://github.com/HarunSert/devops-lab-api)
-
-A FastAPI application used to demonstrate an automated CI/CD workflow from GitHub to Kubernetes.
-
-**Highlights:**
-- Jenkins Multibranch Pipeline
-- GitHub Webhook integration
-- Automated Pytest tests
-- Multi-stage Docker builds
-- Semantic version based releases
-- Docker Hub image publishing
-- Automated Helm deployment
-- Kubernetes rolling updates
-- Liveness and readiness probes
-- Horizontal Pod Autoscaler support
-
-**Release flow:**
-
-```text
-Git Tag
-   ↓
-GitHub Webhook
-   ↓
-Jenkins
-   ↓
-Pytest
-   ↓
-Docker Build
-   ↓
-Docker Hub
-   ↓
-Helm
-   ↓
-Kubernetes
-```
-
-#### [Kubernetes Production Lab](https://github.com/HarunSert/kubernetes-production-lab)
-
-A hands-on K3s lab for practicing Kubernetes and Helm deployment concepts.
-
-**Highlights:**
-- Kubernetes Deployments and Services
-- Traefik Ingress
-- ConfigMaps and Secrets
-- Resource requests and limits
-- Liveness and readiness probes
-- Horizontal Pod Autoscaler
-- Rolling updates
-- Helm install, upgrade and rollback
-- Jenkins CI/CD integration
 
 ### 📫 Connect with me
 
