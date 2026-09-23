@@ -47,6 +47,59 @@ I am building hands-on DevOps projects focused on:
 - GitOps
 - Observability
 
+### 🚀 Featured Projects
+
+#### [DevOps Lab API](https://github.com/HarunSert/devops-lab-api)
+
+A FastAPI application used to demonstrate an automated CI/CD workflow from GitHub to Kubernetes.
+
+**Highlights:**
+- Jenkins Multibranch Pipeline
+- GitHub Webhook integration
+- Automated Pytest tests
+- Multi-stage Docker builds
+- Semantic version based releases
+- Docker Hub image publishing
+- Automated Helm deployment
+- Kubernetes rolling updates
+- Liveness and readiness probes
+- Horizontal Pod Autoscaler support
+
+**Release flow:**
+
+```text
+Git Tag
+   ↓
+GitHub Webhook
+   ↓
+Jenkins
+   ↓
+Pytest
+   ↓
+Docker Build
+   ↓
+Docker Hub
+   ↓
+Helm
+   ↓
+Kubernetes
+```
+
+#### [Kubernetes Production Lab](https://github.com/HarunSert/kubernetes-production-lab)
+
+A hands-on K3s lab for practicing Kubernetes and Helm deployment concepts.
+
+**Highlights:**
+- Kubernetes Deployments and Services
+- Traefik Ingress
+- ConfigMaps and Secrets
+- Resource requests and limits
+- Liveness and readiness probes
+- Horizontal Pod Autoscaler
+- Rolling updates
+- Helm install, upgrade and rollback
+- Jenkins CI/CD integration
+
 ### 📫 Connect with me
 
 - LinkedIn: https://www.linkedin.com/in/harun-sert-819236233/
