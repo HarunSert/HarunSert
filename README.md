@@ -34,6 +34,18 @@ Hands-on K3s environment demonstrating:
 - Rolling updates and rollback
 - Jenkins CI/CD integration
 
+
+#### [HAProxy LDAP Load Balancer Lab](https://github.com/HarunSert/haproxy-ldap-load-balancer-lab)
+
+Layer 4 TCP load-balancing and failover lab using **HAProxy, OpenLDAP and Docker Compose**.
+
+- Round-robin LDAP load balancing
+- TCP health checks
+- Automatic backend failure detection
+- Traffic continuity with healthy nodes
+- Automatic backend recovery
+- Bash-based failover testing
+
 ### 🛠 Technologies & Tools
 
 - Kubernetes
